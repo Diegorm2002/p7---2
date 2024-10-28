@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vicent Andrés Estellés - 3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #edeae5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 50%;
+        height: 90vh;
+        background-color: #f3ede5;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .text-box {
+        background-color: #e0e0e0;
+        padding: 40px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .text-box .top-left {
+        margin-bottom: auto;
+      }
+
+      .text-box .bottom-right {
+        text-align: right;
+        margin-top: auto;
+        padding-right: 50px;
+        margin-bottom: 40px;
+      }
+
+      .text-box p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+      }
+
+      .text-box p:hover {
+        transform: scale(1.05);
+      }
+
+      .side-text {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 80px;
+        background-color: #c3a17d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+      }
+
+      .side-text p {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        transition: transform 0.3s ease;
+      }
+
+      .side-text p:hover {
+        transform: scale(1.05);
+      }
+
+      .bottom-beige {
+        height: 20%;
+        background-color: #c3a17d;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-box">
+        <div class="top-left">
+          <p>
+            Tenen, les nits, prestigi policíac.<br />
+            Tanquen el bar, al carrer solitari,<br />
+            amb un gran fred, amb un vent assassí.<br />
+            Ho escolta al llit, al seu llit de malalt,
+          </p>
+
+          <p>
+            el trist malalt que no s'hi sent un peu<br />
+            i sent pujar les flors de la gangrena.<br />
+            Encén el llum, amarg, de la tauleta,<br />
+            i vol llegir una novel·la d'Hammett.
+          </p>
+        </div>
+
+        <div class="bottom-right">
+          <p>
+            o Simenon, o bé d'Agatha Christie.<br />
+            Moments després se li acudeix un vers,<br />
+            o bé el dolor, el gran dolor, que torna.
+          </p>
+
+          <p>
+            Floreix un mot en un tros de paper<br />
+            i a l'engonal es sentia el dolor:<br />
+            la femoral avisava, frenètica.
+          </p>
+        </div>
+      </div>
+
+      <div class="side-text">
+        <p>Vicent Andrés Estellés - 3</p>
+      </div>
+
+      <div class="bottom-beige"></div>
+    </div>
+  </body>
+</html>
